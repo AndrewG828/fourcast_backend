@@ -50,13 +50,13 @@ AWS_ACCESS_KEY=your_aws_access_key
 AWS_SECRET_KEY=your_aws_secret_key
 AWS_BUCKET_NAME=your_bucket_name
 
-Set Up the Database:
+## Set Up the Database:
 
-Create a new PostgreSQL database:
-createdb yourdbname
+**Create a new PostgreSQL database:
+- **createdb yourdbname
 
-Run migrations:
-npx sequelize-cli db:migrate
+**Run migrations:
+- **npx sequelize-cli db:migrate
 
 ## Start the Server
 ** run node server.js
