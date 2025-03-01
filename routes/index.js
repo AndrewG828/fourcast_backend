@@ -6,6 +6,7 @@ const weatherDataRoutes = require('./weatherData');
 const cropRoutes = require('./crops');
 const predictionRoutes = require('./predictions');
 const recommendationRoutes = require('./recommendations');
+const aiRoutes = require('./ai');
 
 const router = express.Router();
 
@@ -16,5 +17,6 @@ router.use('/weather-data', weatherDataRoutes);
 router.use('/crops', cropRoutes);
 router.use('/predictions', predictionRoutes);
 router.use('/recommendations', recommendationRoutes);
+router.use('/ai', aiRoutes);
 
 module.exports = router;
