@@ -52,11 +52,11 @@ AWS_BUCKET_NAME=your_bucket_name
 
 ## Set Up the Database:
 
-**Create a new PostgreSQL database:
-- **createdb yourdbname
+Create a new PostgreSQL database:
+- createdb yourdbname
 
-**Run migrations:
-- **npx sequelize-cli db:migrate
+Run migrations:
+- npx sequelize-cli db:migrate
 
 ## Start the Server
-** run node server.js
+run node server.js
