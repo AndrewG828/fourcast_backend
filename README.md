@@ -58,5 +58,5 @@ createdb yourdbname
 Run migrations:
 npx sequelize-cli db:migrate
 
-Start the Server:
-node server.js
+## Start the Server
+** run node server.js
