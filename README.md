@@ -1,31 +1,40 @@
-# fourcast_backend
+# FourCast Backend
 
-FourCast is an Amazon-like service designed to distribute 3D-printed items and files. This repository contains the backend code for the platform, built with Node.js, Express.js, and PostgreSQL, using Sequelize as the ORM.
+FourCast is an Amazon-like service designed to distribute 3D-printed items and files. This repository contains the backend code for the platform, built with **Node.js**, **Express.js**, and **PostgreSQL**, using **Sequelize** as the ORM.
 
-Tech Stack
-Backend: Node.js, Express.js
+---
 
-Database: PostgreSQL
+## Features
 
-ORM: Sequelize
+- **User Authentication**: Register, login, and manage user accounts.
+- **Product Management**: Add, update, and browse 3D-printed items and files.
+- **Order Management**: Place orders, track order status, and manage payments.
+- **File Storage**: Upload and download 3D files (STL, OBJ, etc.) using **Amazon S3** or **Google Cloud Storage**.
+- **Search Functionality**: Search for products using **Algolia** or **Elasticsearch**.
+- **Payment Integration**: Process payments using **Stripe** or **PayPal**.
 
-File Storage: Amazon S3 or Google Cloud Storage
+---
 
-Payment Gateway: Stripe or PayPal
+## Tech Stack
 
-Hosting: AWS, Google Cloud, or Vercel/Netlify
+- **Backend**: Node.js, Express.js
+- **Database**: PostgreSQL
+- **ORM**: Sequelize
+- **File Storage**: Amazon S3 or Google Cloud Storage
 
-Getting Started
+---
 
-Prerequisites
-Node.js: Install from nodejs.org.
+## Getting Started
 
-PostgreSQL: Install from postgresql.org.
+### Prerequisites
 
-AWS S3 or Google Cloud Storage: Set up an account for file storage.
+- **Node.js**: Install from [nodejs.org](https://nodejs.org/).
+- **PostgreSQL**: Install from [postgresql.org](https://www.postgresql.org/).
+- **AWS S3** or **Google Cloud Storage**: Set up an account for file storage.
 
-Install dependencies:
-npm install
+---
+
+### Installation
 
 Set Up Environment Variables:
 Create a .env file in the root of the backend directory:
